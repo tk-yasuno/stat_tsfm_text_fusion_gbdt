@@ -1,0 +1,41 @@
+[
+  {
+    "horizon": 30,
+    "model": "TripletFusion",
+    "optimal_threshold": 0.8137071605695492,
+    "accuracy": 0.9926815323041738,
+    "precision": 0.9918032786885246,
+    "recall": 0.9260204081632653,
+    "f1": 0.9577836411609498,
+    "roc_auc": 0.9984363344006112,
+    "pr_auc": 0.9892703809123332,
+    "best_iteration": 876,
+    "triplet_dim": 1116
+  },
+  {
+    "horizon": 60,
+    "model": "TripletFusion",
+    "optimal_threshold": 0.7621888212386928,
+    "accuracy": 0.9939393939393939,
+    "precision": 0.9695431472081218,
+    "recall": 0.9634300126103404,
+    "f1": 0.9664769133459835,
+    "roc_auc": 0.9985305115687823,
+    "pr_auc": 0.9902822620393815,
+    "best_iteration": 970,
+    "triplet_dim": 1116
+  },
+  {
+    "horizon": 90,
+    "model": "TripletFusion",
+    "optimal_threshold": 0.7736978269895104,
+    "accuracy": 0.99073756432247,
+    "precision": 0.9618696186961869,
+    "recall": 0.9399038461538461,
+    "f1": 0.9507598784194529,
+    "roc_auc": 0.997954239736947,
+    "pr_auc": 0.9787724992996285,
+    "best_iteration": 995,
+    "triplet_dim": 1116
+  }
+]

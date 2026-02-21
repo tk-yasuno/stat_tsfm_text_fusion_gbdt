@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Backup / legacy directories
+0_LogBAK/
+Others/
+
+# Data files (large datasets — private / too large)
+data/
+data_source/
+
+# Model checkpoints (large files)
+models/**/*.safetensors
+models/**/*.bin
+models/**/*.pt
+models/**/checkpoint-*/
+*.pkl
+
+# Results — PNGs are tracked (used in README); large CSVs excluded
+results/**/*.csv
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# Experimental versions (not for production)
+*_v2.py
+*_v2.csv
+*_v2.json
+*_v2.txt
+config_v2.py
+data_preprocessing_v2.py
+range_definition_v2.py
+train_v2.py
+evaluate_v2.py
+select_216_equipment.py
+README_ROOT.md
+
+# Temporary check files
+check_*.py
+debug_*.py
+test_*.py
+simple_*.py
+inspect_*.py
+investigate_*.py
+verify_*.py
+find_*.py
+analyze_*.py
+
+# Keep directory structure and important configs
+!data/processed/.gitkeep
+!data/raw/.gitkeep
+!data/ranges/.gitkeep
+!models/**/adapter_config.json
+!models/**/README.md
+!results/**/*.json
