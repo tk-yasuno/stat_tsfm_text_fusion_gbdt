@@ -479,3 +479,21 @@ To validate that text-embedding clusters correspond to **physically coherent sen
 3. **90-day prediction horizon advantages**: Short-horizon anomalies (≤30 days) would miss the slow drift visible in C6, C11, and C16. The **90-day look-ahead label** (`any_anomaly`) captures these gradual precursors, which are the primary contribution of the longer prediction window in v3-0.
 
 4. **Frequency cluster (C15)** is the only cluster with a step-function waveform, reflecting discrete inverter speed stages. This structure is invisible to models without equipment-type context but becomes learnable via the triplet fusion embedding z.
+
+---
+
+## License
+
+Copyright 2026 tk-yasuno
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+&nbsp;&nbsp;&nbsp;&nbsp;https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
